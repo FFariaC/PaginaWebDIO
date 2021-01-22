@@ -1,0 +1,100 @@
+body {
+    background: #e6e1e1;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile_picture {
+    width: 100px;
+    border: 1px solid #505050;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;   
+    display: block;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.post_image {
+    margin-left: auto;
+    margin-right: auto;   
+    display: block;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 60%;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    background-color: #EDEDED;
+    color: #333;
+    border-bottom: 3px solid #EDEDED;
+}
+
+.subtitle {
+    color: black;
+    text-align: center;
+}
+
+.post_title {
+    color: rgb(82, 8, 8);
+    text-align: center;
+}
+
+#painel ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+    text-align: center;
+}
+
+#painel ul li { 
+    display: inline-block;
+ }
+
+ #painel ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 2px solid #26007e;
+}
